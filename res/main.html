@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div id="view">
+        <div id="direct" class="fullscreen">
+            <div class="balao">
+                <p>Observem quantas<br>borboletas lindas!<br>Qual a quantidade<br>delas na tela?</p>
+            </div>
+            <h2>Quantas borboletas?</h2>
+            <a href="javascript:;" class="opt">7</a>
+            <a href="javascript:;" class="opt">11</a>
+            <a href="javascript:;" class="opt">12</a>
+            <a href="javascript:;" class="opt">14</a>
+            <a href="javascript:;" class="opt">9</a>
+        </div>
+
+        <div id="with_fields" class="fullscreen e2t3">
+            <div class="balao"><p></p></div>
+
+            <div class="question">
+                <h2>Quantos animais?</h2>
+                <div class="field"><span class="label">Gatos:</span><span class="n">0</span></div>
+                <div class="field"><span class="label">Cachorros:</span><span class="n">0</span></div>
+            </div>
+            
+            <div class="numbers">
+                <a href="javascript:;" class="number">0</a>
+                <a href="javascript:;" class="number">1</a>
+                <a href="javascript:;" class="number">2</a>
+                <a href="javascript:;" class="number">3</a>
+                <a href="javascript:;" class="number">4</a>
+                <a href="javascript:;" class="number">5</a>
+                <a href="javascript:;" class="number">6</a>
+                <a href="javascript:;" class="number">7</a>
+                <a href="javascript:;" class="number">8</a>
+                <a href="javascript:;" class="number">9</a>
+                <a href="javascript:;" class="back"> </a>
+            </div>
+        </div>
+
+
+        <div id="try_again" class="modal fullscreen">
+            <div class="overlay fullscreen"></div>
+            <div class="content">
+                <p>Tente novamente!</p>
+            </div>
+        </div>
+
+        <div id="error" class="modal fullscreen e1t3">
+            <div class="overlay fullscreen"></div>
+            <div class="content">
+                <p class="e1t3"><span class="big">Resposta incorreta!</span><br>Resposta correta: 14 borboletas</p>
+                <p class="e2t3"><span class="big">Resposta incorreta!</span><br>Resposta correta: 3 cachorros e 2 gatos</p>
+                <p class="e3t6"><span class="big">Resposta incorreta!</span><br>Resposta correta: 4 pintinhos</p>
+                <p class="e4t11"><span class="big">Resposta incorreta!</span><br>Resposta correta: 10 notas de 10 reais</p>
+                <p class="e5t15"><span class="big">Resposta incorreta!</span><br>Resposta correta: 2 rodas</p>
+                <p class="e6t16"><span class="big">Resposta incorreta!</span><br>Resposta correta:<span class="block">2 triângulos<br>6 quadrados<br>6 losangos<br>3 círculos</span></p>
+            </div>
+        </div>
+
+        <div id="final" class="modal fullscreen">
+            <div class="overlay fullscreen"></div>
+            <div class="content">
+                <p><span class="big">Parabéns!</span><br>Você completou os desafios!</p>
+                <a href="javascript:;" class="restart">Reiniciar</a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/lib/jquery.3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
